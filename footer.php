@@ -34,8 +34,8 @@
                     <div class="footer-section">
                         <h4 class="footer-title">Contact Us</h4>
                         <ul class="footer-contact">
-                            <li><i class="fas fa-phone-alt"></i> +91 98765 43210</li>
-                            <li><i class="fas fa-envelope"></i> admissions@sageuniversity.edu.in</li>
+                            <li><i class="fas fa-phone-alt"></i> +91 18001007031</li>
+                            <li><i class="fas fa-envelope"></i> admissions@sageuniversity.in</li>
                         </ul>
                         <div class="social-icons mt-3">
                             <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
@@ -49,16 +49,16 @@
             </div>
             <hr class="footer-divider my-2">
             <div class="text-center">
-                <p class="copyright">&copy; 2025 SAGE University. All Rights Reserved.</p>
+                <p class="copyright">&copy; 2025-26 Design and Developed By Dhiren Singh and Mohit Pandey. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
     <div class="floating-buttons">
-        <a href="tel:+919876543210" class="floating-btn phone-btn" title="Call Us">
+        <a href="tel:+9118001007031" class="floating-btn phone-btn" title="Call Us">
             <i class="fas fa-phone-alt"></i>
         </a>
-        <a href="mailto:admissions@sageuniversity.edu.in" class="floating-btn email-btn" title="Email Us">
+        <a href="mailto:admissions@sageuniversity.in" class="floating-btn email-btn" title="Email Us">
             <i class="fas fa-envelope"></i>
         </a>
         <a href="#apply" class="floating-btn enquire-btn" title="Enquire Now">

@@ -23,11 +23,11 @@
     <div class="top-bar">
         <div class="container">
             <div class="d-flex justify-content-end align-items-center">
-                <a href="tel:+919876543210" class="top-bar-link me-3">
-                    <i class="fas fa-phone-alt me-2"></i>+91 98765 43210
+                <a href="tel:+9118001007031" class="top-bar-link me-3">
+                    <i class="fas fa-phone-alt me-2"></i>+91 18001007031
                 </a>
-                <a href="mailto:admissions@sageuniversity.edu.in" class="top-bar-link">
-                    <i class="fas fa-envelope me-2"></i>admissions@sageuniversity.edu.in
+                <a href="mailto:admissions@sageuniversity.in" class="top-bar-link">
+                    <i class="fas fa-envelope me-2"></i>admissions@sageuniversity.in
                 </a>
             </div>
         </div>
@@ -36,7 +36,7 @@
     <header class="main-header">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index-2.php">
+                <a class="navbar-brand" href="index.php">
                     <img src="public/sage_logo.jpg" alt="SAGE University Logo" class="logo">
                 </a>
 
