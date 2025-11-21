@@ -17,6 +17,7 @@
     <link href="cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="public/styles.css"> 
+    <link rel="stylesheet" href="public/accordion.css"> 
 </head>
 
 <body>

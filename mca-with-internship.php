@@ -769,7 +769,7 @@
         <div class="container">
             <div class="advisor-content">
                 <div class="advisor-image">
-                    <img src="../../images.pexels.com/photos/5428836/pexels-photo-5428836a1a8.jpg?auto=compress&amp;cs=tinysrgb&amp;w=800"
+                    <img src="images.pexels.com/photos/5428836/pexels-photo-5428836a1a8.jpg?auto=compress&amp;cs=tinysrgb&amp;w=800"
                         alt="Academic Advisor">
                 </div>
                 <div class="advisor-text">

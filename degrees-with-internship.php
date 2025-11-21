@@ -119,7 +119,7 @@
                                 <div class="col-lg-4 col-md-6">
                                     <div class="program-card">
                                         <div class="program-image">
-                                            <img src="../../images.pexels.com/photos/1181675/pexels-photo-1181675e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                            <img src="images.pexels.com/photos/1181675/pexels-photo-1181675e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
                                                 alt="BCA Honours">
                                         </div>
                                         <div class="program-content">
@@ -136,7 +136,7 @@
                                 <div class="col-lg-4 col-md-6 d-none d-md-block">
                                     <div class="program-card">
                                         <div class="program-image">
-                                            <img src="../../images.pexels.com/photos/1181244/pexels-photo-1181244e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                            <img src="images.pexels.com/photos/1181244/pexels-photo-1181244e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
                                                 alt="MCA">
                                         </div>
                                         <div class="program-content">
@@ -152,7 +152,7 @@
                                 <div class="col-lg-4 d-none d-lg-block">
                                     <div class="program-card">
                                         <div class="program-image">
-                                            <img src="../../images.pexels.com/photos/3184291/pexels-photo-3184291e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                            <img src="images.pexels.com/photos/3184291/pexels-photo-3184291e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
                                                 alt="MBA">
                                         </div>
                                         <div class="program-content">
@@ -172,7 +172,7 @@
                                 <div class="col-lg-4 col-md-6">
                                     <div class="program-card">
                                         <div class="program-image">
-                                            <img src="../../images.pexels.com/photos/6694543/pexels-photo-6694543e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                            <img src="images.pexels.com/photos/6694543/pexels-photo-6694543e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
                                                 alt="MBA Banking & Finance">
                                         </div>
                                         <div class="program-content">
@@ -189,7 +189,7 @@
                                 <div class="col-lg-4 col-md-6 d-none d-md-block">
                                     <div class="program-card">
                                         <div class="program-image">
-                                            <img src="../../images.pexels.com/photos/6289065/pexels-photo-6289065e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                            <img src="images.pexels.com/photos/6289065/pexels-photo-6289065e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
                                                 alt="M.Com">
                                         </div>
                                         <div class="program-content">
@@ -205,7 +205,7 @@
                                 <div class="col-lg-4 d-none d-lg-block">
                                     <div class="program-card">
                                         <div class="program-image">
-                                            <img src="../../images.pexels.com/photos/3184357/pexels-photo-3184357e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                            <img src="images.pexels.com/photos/3184357/pexels-photo-3184357e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
                                                 alt="MA Journalism">
                                         </div>
                                         <div class="program-content">
@@ -226,7 +226,7 @@
                                 <div class="col-lg-4 col-md-6">
                                     <div class="program-card">
                                         <div class="program-image">
-                                            <img src="../../images.pexels.com/photos/3825517/pexels-photo-3825517e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
+                                            <img src="images.pexels.com/photos/3825517/pexels-photo-3825517e7fe.jpg?auto=compress&amp;cs=tinysrgb&amp;w=600"
                                                 alt="M.Sc Maths">
                                         </div>
                                         <div class="program-content">

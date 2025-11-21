@@ -68,5 +68,6 @@
 
     <script src="cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="public/script.js"></script> 
+    <script src="public/accordion.js"></script> 
 </body>
 </php>
