@@ -1,108 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
 
-
-<!-- Mirrored from teamleaseedtech.com/sage/ma-journalism-and-mass-communication-with-internship.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Nov 2025 05:26:31 GMT -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="MA in Journalism and Mass Communication Degree with Internship program at SAGE University - 4 years online degree with solid grounding in programming, AI, ML, and Data Science.">
-    <meta name="keywords"
-        content="MA in Journalism and Mass Communication Degree with Internship, Online MA in Journalism and Mass Communication Degree with Internship, Computer Applications, Programming, SAGE University">
-    <title>MA in Journalism and Mass Communication Degree with Internship - SAGE University</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-
-    <link href="../../cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="public/styles.css">
-    <link rel="stylesheet" href="public/accordion.css">
-</head>
-
-<body>
-    <div class="top-bar">
-        <div class="container">
-            <div class="d-flex justify-content-end align-items-center">
-                <a href="tel:+919876543210" class="top-bar-link me-3">
-                    <i class="fas fa-phone-alt me-2"></i>+91 98765 43210
-                </a>
-                <a href="mailto:admissions@sageuniversity.edu.in" class="top-bar-link">
-                    <i class="fas fa-envelope me-2"></i>admissions@sageuniversity.edu.in
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <header class="main-header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index-2.html">
-                    <img src="public/sage_logo.jpg" alt="SAGE University Logo" class="logo">
-                </a>
-
-                <div class="d-flex align-items-center order-lg-3">
-                    <a href="#apply" class="btn btn-apply">Apply Now</a>
-                    <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-
-                <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index-2.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                About Us
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="about-university.html">About University</a></li>
-                                <li><a class="dropdown-item" href="chancellor-corner.html">Chancellor's Corner</a></li>
-                                <li><a class="dropdown-item" href="leadership.html">The Leadership</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
-                                Programs
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="online-degrees.html">Online Degrees</a></li>
-                                <li><a class="dropdown-item" href="degrees-with-internship.html">Degrees with
-                                        Internship</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="faqs.html">FAQs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<?php include ('header.php'); ?>
 
     <section class="course-banner">
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="index-2.html#online-degrees">Degrees with Internship</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">MA in JMC Degree with Internship</li>
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.php#online-degrees">Degrees with Internship</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">M.Com Degree with Internship</li>
                 </ol>
             </nav>
 
             <div class="row">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="course-info">
-                        <h1>MA in Journalism and Mass Communication Degree with Internship</h1>
+                        <h1>Master of Commerce Degree with Internship</h1>
                         <div class="course-meta">
                             <div class="meta-item">
                                 <i class="fas fa-clock"></i>
@@ -171,10 +83,10 @@
             <div class="row">
                 <div class="col-lg-8">
                     <h2 class="section-title mb-4"><span class="title-highlight">Program</span> Overview</h2>
-                    <p style="font-size: 16px; line-height: 1.8; text-align: justify;">SAGE's MA in Journalism with
-                        Internship prepares media professionals through academic learning combined with real newsroom,
-                        content, or communication agency experience. Students develop journalism skills while
-                        contributing to actual media productions.</p>
+                    <p style="font-size: 16px; line-height: 1.8; text-align: justify;">SAGE's M.Com with Internship
+                        enhances commerce education with professional accounting, finance, or business internships.
+                        Students develop advanced commercial knowledge while gaining workplace experience in
+                        commerce-related organizations.</p>
                 </div>
                 <div class="col-lg-4">
                     <div class="eligibility-card">
@@ -200,28 +112,28 @@
             <h2 class="section-title text-center mb-5"><span class="title-highlight">Program</span> Highlights</h2>
             <div class="highlight-grid">
                 <div class="highlight-item">
-                    <i class="fas fa-newspaper"></i>
-                    <h4>Complete journalism and media education</h4>
+                    <i class="fas fa-briefcase"></i>
+                    <h4>Professional internship in accounting, audit, finance sectors</h4>
                 </div>
                 <div class="highlight-item">
-                    <i class="fas fa-globe"></i>
-                    <h4>Digital media, social platforms, content creation</h4>
-                </div>
-                <div class="highlight-item">
-                    <i class="fas fa-bullhorn"></i>
-                    <h4>PR, advertising, corporate communication</h4>
+                    <i class="fas fa-calculator"></i>
+                    <h4>Advanced accounting, taxation, finance concepts</h4>
                 </div>
                 <div class="highlight-item">
                     <i class="fas fa-balance-scale"></i>
-                    <h4>Media ethics, law, regulatory frameworks</h4>
+                    <h4>Auditing, corporate law, business economics</h4>
                 </div>
                 <div class="highlight-item">
-                    <i class="fas fa-camera"></i>
-                    <h4>Practical assignments and portfolio creation</h4>
+                    <i class="fas fa-laptop"></i>
+                    <h4>Flexible online format for working professionals</h4>
                 </div>
                 <div class="highlight-item">
-                    <i class="fas fa-users"></i>
-                    <h4>Industry networking in media sector</h4>
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h4>Experienced faculty with industry expertise</h4>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <h4>Practical exposure to accounting systems and practices</h4>
                 </div>
             </div>
 
@@ -254,31 +166,43 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Essentials of Journalism</td>
+                                                <td>Corporate Financial Accounting</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Fundamentals of Mass Communication</td>
+                                                <td>Advanced Management Accounting</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Advertising</td>
+                                                <td>International Accounting</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Development Communication</td>
+                                                <td>Managerial Economics</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Basics of Photography</td>
+                                                <td>Business Communication</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Project Based Learning-I</td>
+                                                <td>Ethics, Corporate Governance and Sustainability</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Soft Skills</td>
+                                                <td>Organizational Behavior</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Computer Application in Tally</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Entrepreneurship Skills development</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Soft Skills & Personality Development</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -305,31 +229,43 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Media Law and Ethic</td>
+                                                <td>Business Research</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>News Reporting and Writing</td>
+                                                <td>Marketing Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Introduction to Photo Journalism</td>
+                                                <td>Advance Financial Management and Policy</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Computer Skills and Page Layout</td>
+                                                <td>Currency Derivatives</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Videography</td>
+                                                <td>Credit Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Project Based Learning-II</td>
+                                                <td>Strategic Cost and Management Accounting</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Feature Writing</td>
+                                                <td>Business Environment</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Professional Development</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Minor Project</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Public Speaking</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -339,7 +275,7 @@
                         </div>
 
                         <!-- Semester III -->
-                        <div class="accordion-item-csr d-none">
+                        <div class="accordion-item-csr">
                             <button class="accordion-header-csr">
                                 <span class="accordion-title">Semester III</span>
                                 <span class="accordion-icon">+</span>
@@ -356,19 +292,31 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Broadcast T.V and News Production</td>
+                                                <td>Elective*</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Media Research</td>
+                                                <td>Elective*</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Digital PR</td>
+                                                <td>Elective*</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Indian Constitution and Socio Economic Polity</td>
+                                                <td>Elective*</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Elective*</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Elective*</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>E-Commerce</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
@@ -377,6 +325,23 @@
                                         </tbody>
                                     </table>
 
+                                    <table class="subject-table mt-4">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2" style="text-align: center;"><b>Research Work</b></th>
+                                            </tr>
+                                            <tr>
+                                                <th class="d-none">Subjec</th>
+                                                <th>Subject Title</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Research Project</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -454,7 +419,7 @@
                         <!-- Semester V -->
                         <div class="accordion-item-csr">
                             <button class="accordion-header-csr">
-                                <span class="accordion-title">Semester III</span>
+                                <span class="accordion-title">Semester III Electives</span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-body-csr">
@@ -469,57 +434,30 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Elective*</td>
+                                                <td>Customer Relationship Management in Banking</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Elective*</td>
+                                                <td>Behavioral Finance</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Elective*</td>
+                                                <td>Corporate Financial Restructuring</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Elective*</td>
+                                                <td>Strategic Financial Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Elective*</td>
+                                                <td>Financial Planning and Investment Decision</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Elective*</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>E-Commerce</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Summer Internship</td>
+                                                <td>Project Management</td>
                                             </tr>
                                         </tbody>
                                     </table>
-
-                                    <table class="subject-table mt-4">
-                                        <thead>
-                                            <tr>
-                                                <th colspan="2" style="text-align: center;"><b>Research Work</b></th>
-                                            </tr>
-                                            <tr>
-                                                <th class="d-none">Subjec</th>
-                                                <th>Subject Title</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Research Project</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-
                                 </div>
                             </div>
                         </div>
@@ -534,6 +472,9 @@
                                 <div class="table-responsive">
                                     <table class="subject-table">
                                         <thead>
+                                            <tr>
+                                                <th colspan="2" class="text-center"><b>Research Work</b></th>
+                                            </tr>
                                             <tr>
                                                 <th class="d-none">Subjec</th>
                                                 <th>Subject Title</th>
@@ -558,19 +499,27 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Film Appreciation </td>
+                                                <td>Securities Market Operations </td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Digital Media </td>
+                                                <td>Insurance Analytics and Actuarial Science</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Event Management</td>
+                                                <td>Elective*</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Content Creation with AL Tools</td>
+                                                <td>Elective*</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Elective*</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Elective*</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
@@ -578,15 +527,15 @@
                                             </tr>
                                         </tbody>
                                     </table>
-
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Semester VII -->
-                        <div class="accordion-item-csr d-none">
+
+
+                        <div class="accordion-item-csr">
                             <button class="accordion-header-csr">
-                                <span class="accordion-title">Semester VII</span>
+                                <span class="accordion-title">Semester IV Electives</span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-body-csr">
@@ -600,43 +549,20 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="d-none">CAPMCNAW701T</td>
-                                                <td>Advanced Web Technologies</td>
+                                                <td class="d-none"></td>
+                                                <td>Strategic Cost Analysis and Performance Evaluation</td>
                                             </tr>
                                             <tr>
-                                                <td class="d-none">CAPMCNAW701P</td>
-                                                <td>Advanced Web Technologies Lab</td>
+                                                <td class="d-none"></td>
+                                                <td>Corporate Tax Planning and Management</td>
                                             </tr>
                                             <tr>
-                                                <td class="d-none">CAPMCNGG702T</td>
-                                                <td>Git and Git hub</td>
+                                                <td class="d-none"></td>
+                                                <td>Financial Institutions and Markets</td>
                                             </tr>
                                             <tr>
-                                                <td class="d-none">CAPMCNGG702P</td>
-                                                <td>Git and Git hub Lab</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">CAPMCNRM703T</td>
-                                                <td>Research Methodology</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">CAPMCNRM703T</td>
-                                                <td>Research Methodology Lab</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Data Analysis using R</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Data Analysis using R Lab</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Table-11</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Table-11 Lab</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Refer Table-10</td>
+                                                <td class="d-none"></td>
+                                                <td>Security Analysis and Portfolio Management</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -785,35 +711,34 @@
             <h2 class="section-title">Career Opportunities</h2>
             <div class="career-grid">
                 <div class="career-card">
-                    <i class="fas fa-newspaper"></i>
-                    <h3>News Reporter / Journalist</h3>
+                    <i class="fas fa-calculator"></i>
+                    <h3>Senior Accountant</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-pen-nib"></i>
-                    <h3>Content Strategist</h3>
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <h3>Tax Consultant</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-video"></i>
-                    <h3>Digital Media Producer</h3>
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Financial Controller</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-user-tie"></i>
-                    <h3>Communication Manager</h3>
+                    <i class="fas fa-search-dollar"></i>
+                    <h3>Audit Associate</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-share-alt"></i>
-                    <h3>Social Media Specialist</h3>
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Corporate Accountant</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-bullseye"></i>
-                    <h3>Media Planner</h3>
+                    <i class="fas fa-coins"></i>
+                    <h3>Finance Manager</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-bullhorn"></i>
-                    <h3>Public Relations Professional</h3>
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Accounts Analyst</h3>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -844,13 +769,13 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                            Q1. What makes this journalism program unique?
+                            Q1. How does an internship enhance M.Com value?
                         </button>
                     </h2>
                     <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. Academic training combined with actual media production experience, creating graduates
-                            with proven skills and published portfolios.
+                            A. You graduate with theoretical commerce knowledge plus practical experience in accounting,
+                            taxation, or financial operations.
                         </div>
                     </div>
                 </div>
@@ -859,13 +784,13 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq2">
-                            Q2. Do media companies recognize this degree?
+                            Q2. Is this recognized for professional courses?
                         </button>
                     </h2>
                     <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. Yes. SAGE's UGC recognition plus documented media experience makes graduates attractive
-                            to hiring organizations.
+                            A. Yes. UGC-recognized M.Com supports CA, CS, CMA pursuits while providing practical
+                            commercial experience.
                         </div>
                     </div>
                 </div>
@@ -874,13 +799,13 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq3">
-                            Q3. What media internships are offered?
+                            Q3. What commerce internships are available?
                         </button>
                     </h2>
                     <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. Internships with newspapers, digital media platforms, TV channels, radio stations, PR
-                            agencies, and content marketing firms.
+                            A. Internships with accounting firms, corporate finance departments, audit companies,
+                            taxation practices, and financial institutions.
                         </div>
                     </div>
                 </div>
@@ -889,13 +814,15 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq4">
-                            Q4. Is this good for content creation careers?
+                            Q4. What is an M.Com with Internship program?
                         </button>
                     </h2>
                     <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. Excellent. You gain journalism fundamentals plus practical content creation, editing, and
-                            distribution experience.
+                            A. An M.Com with Internship is a Master of Commerce program that combines academic learning
+                            with practical industry experience. Through a structured M.Com internship, students gain
+                            real-world exposure in finance, accounting, taxation, and business management, preparing
+                            them for corporate roles immediately after graduation.
                         </div>
                     </div>
                 </div>
@@ -904,16 +831,13 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq5">
-                            Q5. What is the MA in Journalism and Mass Communication with Internship program?
+                            Q5. Does SAGE University offer online M.Com with Internship?
                         </button>
                     </h2>
                     <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            The MA in Journalism and Mass Communication with Internship at SAGE University combines
-                            advanced theoretical knowledge in journalism, media studies, and communication with
-                            practical, hands-on industry experience. The MA Journalism and Mass Communication internship
-                            program allows students to work on real media projects, preparing them for professional
-                            roles in journalism, public relations, and digital media.
+                            A. Yes, SAGE University Online M.Com Internship programs allow students to complete their
+                            M.Com internship, providing hands-on industry experience.
                         </div>
                     </div>
                 </div>
@@ -922,15 +846,14 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq6">
-                            Q6. Can I pursue an online MA in Journalism and Mass Communication with Internship?
+                            Q6. Are SAGE University’s M.Com internships UGC-approved?
                         </button>
                     </h2>
                     <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            Yes, SAGE University offers an online MA in Journalism and Mass Communication with
-                            Internship, allowing students to gain practical exposure and industry experience while
-                            completing their coursework. This flexibility is ideal for working professionals or students
-                            seeking distance learning options.
+                            A. The UGC-approved M.Com with Internship at SAGE University ensures that students receive
+                            an accredited degree along with a recognized internship, adding credibility to both academic
+                            and professional profiles.
                         </div>
                     </div>
                 </div>
@@ -939,15 +862,15 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq7">
-                            Q7. Is the MA Journalism and Mass Communication internship UGC-approved?
+                            Q7. What career opportunities are available after completing an M.Com internship?
                         </button>
                     </h2>
                     <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            The UGC-approved MA Journalism and Mass Communication with Internship ensures that students
-                            earn a recognized degree while gaining hands-on experience in media and communication
-                            industries. This combination of academic rigor and practical exposure enhances
-                            employability.
+                            A. Completing a Master of Commerce with Internship opens up career opportunities in
+                            accounting, finance, banking, taxation, auditing, and corporate management. Students gain
+                            practical skills during the internship for M.Com students, which significantly enhances
+                            employability in India and abroad.
                         </div>
                     </div>
                 </div>
@@ -956,114 +879,22 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq8">
-                            Q8. What subjects and syllabus are covered in this program?
+                            Q8. How can I apply for the SAGE University M.Com internship program?
                         </button>
                     </h2>
                     <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            The MA Journalism and Mass Communication syllabus and subjects include journalism
-                            fundamentals, media ethics, digital media, public relations, content creation, and media
-                            research. The internship component allows students to apply these concepts in real-world
-                            media organizations.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#faq9">
-                            Q9. What is the expected salary after completing an MA in Journalism and Mass Communication
-                            with Internship?
-                        </button>
-                    </h2>
-                    <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Graduates of the MA in Journalism and Mass Communication with Internship program can pursue
-                            careers in journalism, media, PR, and digital content creation. The salary after MA
-                            Journalism and Mass Communication varies based on role and organization, but the practical
-                            internship experience significantly enhances earning potential and career growth.
+                            A. Students can enroll in the online M.Com internship program at SAGE University by visiting
+                            this website and submitting their application. The program combines academic coursework with
+                            a hands-on M.Com internship, offering a perfect blend of theory and practice.
                         </div>
                     </div>
                 </div>
             </div>
+
 
         </div>
     </section>
 
-    <footer class="main-footer pt-4 pb-2">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <img src="public/sage_logo.jpg" alt="SAGE University Logo" class="footer-logo mb-3">
-                        <p class="footer-address">SAGE University<br>Bypass Road, Kailod Kartal<br>Indore -
-                            452001<br>Madhya Pradesh, India</p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Quick Links</h4>
-                        <ul class="footer-links">
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><a href="about-university.html">About University</a></li>
-                            <li><a href="chancellor-corner.html">Chancellor's Corner</a></li>
-                            <li><a href="leadership.html">The Leadership</a></li>
-                            <li><a href="faqs.html">FAQs</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Programs</h4>
-                        <ul class="footer-links">
-                            <li><a href="online-degrees.html">Online Degrees</a></li>
-                            <li><a href="degrees-with-internship.html">Degrees with Internship</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Contact Us</h4>
-                        <ul class="footer-contact">
-                            <li><i class="fas fa-phone-alt"></i> +91 98765 43210</li>
-                            <li><i class="fas fa-envelope"></i> admissions@sageuniversity.edu.in</li>
-                        </ul>
-                        <div class="social-icons mt-3">
-                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr class="footer-divider my-2">
-            <div class="text-center">
-                <p class="copyright">&copy; 2025 SAGE University. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <div class="floating-buttons">
-        <a href="tel:+919876543210" class="floating-btn phone-btn" title="Call Us">
-            <i class="fas fa-phone-alt"></i>
-        </a>
-        <a href="mailto:admissions@sageuniversity.edu.in" class="floating-btn email-btn" title="Email Us">
-            <i class="fas fa-envelope"></i>
-        </a>
-        <a href="#apply" class="floating-btn enquire-btn" title="Enquire Now">
-            <i class="fas fa-comments"></i>
-        </a>
-    </div>
-
-    <script src="../../cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="public/script.js"></script>
-    <script src="public/accordion.js"></script>
-</body>
-
-
-<!-- Mirrored from teamleaseedtech.com/sage/ma-journalism-and-mass-communication-with-internship.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Nov 2025 05:26:31 GMT -->
-</html>
+   
+<?php include ('footer.php'); ?>

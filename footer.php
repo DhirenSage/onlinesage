@@ -12,12 +12,12 @@
                     <div class="footer-section">
                         <h4 class="footer-title">Quick Links</h4>
                         <ul class="footer-links">
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><a href="about-university.html">About University</a></li>
-                            <li><a href="chancellor-corner.html">Chancellor's Corner</a></li>
-                            <li><a href="leadership.html">The Leadership</a></li>
-                            <li><a href="faqs.html">FAQs</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about-university.php">About University</a></li>
+                            <li><a href="chancellor-corner.php">Chancellor's Corner</a></li>
+                            <li><a href="leadership.php">The Leadership</a></li>
+                            <li><a href="faqs.php">FAQs</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -25,8 +25,8 @@
                     <div class="footer-section">
                         <h4 class="footer-title">Programs</h4>
                         <ul class="footer-links">
-                            <li><a href="online-degrees.html">Online Degrees</a></li>
-                            <li><a href="degrees-with-internship.html">Degrees with Internship</a></li>
+                            <li><a href="online-degrees.php">Online Degrees</a></li>
+                            <li><a href="degrees-with-internship.php">Degrees with Internship</a></li>
                         </ul>
                     </div>
                 </div>
@@ -69,4 +69,4 @@
     <script src="cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="public/script.js"></script> 
 </body>
-</html>
+</php>

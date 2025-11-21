@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -36,7 +36,7 @@
     <header class="main-header">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index-2.html">
+                <a class="navbar-brand" href="index-2.php">
                     <img src="public/sage_logo.jpg" alt="SAGE University Logo" class="logo">
                 </a>
 
@@ -51,16 +51,16 @@
                 <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index-2.html">Home</a>
+                            <a class="nav-link active" href="index.php">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                                 About Us
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="about-university.html">About University</a></li>
-                                <li><a class="dropdown-item" href="chancellor-corner.html">Chancellor's Corner</a></li>
-                                <li><a class="dropdown-item" href="leadership.html">The Leadership</a></li>
+                                <li><a class="dropdown-item" href="about-university.php">About University</a></li>
+                                <li><a class="dropdown-item" href="chancellor-corner.php">Chancellor's Corner</a></li>
+                                <li><a class="dropdown-item" href="leadership.php">The Leadership</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -68,15 +68,15 @@
                                 Programs
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="online-degrees.html">Online Degrees</a></li>
-                                <li><a class="dropdown-item" href="degrees-with-internship.html">Degrees with Internship</a></li>
+                                <li><a class="dropdown-item" href="online-degrees.php">Online Degrees</a></li>
+                                <li><a class="dropdown-item" href="degrees-with-internship.php">Degrees with Internship</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="faqs.html">FAQs</a>
+                            <a class="nav-link" href="faqs.php">FAQs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
+                            <a class="nav-link" href="contact.php">Contact Us</a>
                         </li>
                     </ul>
                 </div>

@@ -1,107 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
 
-
-<!-- Mirrored from teamleaseedtech.com/sage/mca.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Nov 2025 05:26:31 GMT -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="MCA program at SAGE University - 4 years online degree with solid grounding in programming, AI, ML, and Data Science.">
-    <meta name="keywords" content="MCA, Online MCA, Computer Applications, Programming, SAGE University">
-    <title>MCA - SAGE University</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-
-    <link href="../../cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="public/styles.css">
-    <link rel="stylesheet" href="public/accordion.css">
-</head>
-
-<body>
-    <div class="top-bar">
-        <div class="container">
-            <div class="d-flex justify-content-end align-items-center">
-                <a href="tel:+919876543210" class="top-bar-link me-3">
-                    <i class="fas fa-phone-alt me-2"></i>+91 98765 43210
-                </a>
-                <a href="mailto:admissions@sageuniversity.edu.in" class="top-bar-link">
-                    <i class="fas fa-envelope me-2"></i>admissions@sageuniversity.edu.in
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <header class="main-header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index-2.html">
-                    <img src="public/sage_logo.jpg" alt="SAGE University Logo" class="logo">
-                </a>
-
-                <div class="d-flex align-items-center order-lg-3">
-                    <a href="#apply" class="btn btn-apply">Apply Now</a>
-                    <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-
-                <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index-2.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                About Us
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="about-university.html">About University</a></li>
-                                <li><a class="dropdown-item" href="chancellor-corner.html">Chancellor's Corner</a></li>
-                                <li><a class="dropdown-item" href="leadership.html">The Leadership</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
-                                Programs
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="online-degrees.html">Online Degrees</a></li>
-                                <li><a class="dropdown-item" href="degrees-with-internship.html">Degrees with
-                                        Internship</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="faqs.html">FAQs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<?php include ('header.php'); ?>
 
     <section class="course-banner">
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="online-degrees.html">Online Degrees</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">MCA</li>
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="online-degrees.php">Online Degrees</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">MBA</li>
                 </ol>
             </nav>
 
             <div class="row">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="course-info">
-                        <h1>Master of Computer Application</h1>
+                        <h1>Master of Business Administration</h1>
                         <div class="course-meta">
                             <div class="meta-item">
                                 <i class="fas fa-clock"></i>
@@ -170,11 +83,10 @@
             <div class="row">
                 <div class="col-lg-8">
                     <h2 class="section-title mb-4"><span class="title-highlight">Program</span> Overview</h2>
-                    <p style="font-size: 16px; line-height: 1.8; text-align: justify;">SAGE's online MCA (Master of
-                        Computer Application) program is designed for graduates seeking advanced expertise in software
-                        engineering, IT solutions, and emerging technologies. With specialized tracks and comprehensive
-                        project work, the program emphasizes practical knowledge and industry readiness through flexible
-                        online delivery.</p>
+                    <p style="font-size: 16px; line-height: 1.8; text-align: justify;">SAGE's online MBA program
+                        prepares graduates and professionals for management excellence, leadership positions, and
+                        business innovation. With multiple specialization options, the program builds strategic
+                        thinking, business acumen, and leadership capabilities through flexible online delivery.</p>
                 </div>
                 <div class="col-lg-4">
                     <div class="eligibility-card">
@@ -195,23 +107,27 @@
             <h2 class="section-title text-center mb-5"><span class="title-highlight">Program</span> Highlights</h2>
             <div class="highlight-grid">
                 <div class="highlight-item">
-                    <i class="fas fa-laptop-code"></i>
-                    <h4>Advanced programming and software design</h4>
+                    <i class="fas fa-briefcase"></i>
+                    <h4>Full-spectrum management education</h4>
                 </div>
                 <div class="highlight-item">
-                    <i class="fas fa-brain"></i>
-                    <h4>Specializations in Machine Learning, Cloud Computing, Data Analytics</h4>
+                    <i class="fas fa-layer-group"></i>
+                    <h4>Specializations: Marketing, Finance, HR, Production & Operation, Event Management, Information &
+                        Technology Management</h4>
                 </div>
                 <div class="highlight-item">
-                    <i class="fas fa-industry"></i>
-                    <h4>Contemporary industry-focused curriculum</h4>
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Industry-relevant curriculum with case analysis</h4>
                 </div>
                 <div class="highlight-item">
-                    <i class="fas fa-video"></i>
-                    <h4>Flexible online format for career advancement</h4>
+                    <i class="fas fa-users"></i>
+                    <h4>Leadership and communication skill building</h4>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-laptop"></i>
+                    <h4>Flexible online learning for professionals</h4>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -241,51 +157,57 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Mathematical Foundation</td>
+                                                <td>Principles & Practices of Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Data Structure and Algorithm</td>
+                                                <td>Business Law</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Data Structure and Algorithm Lab</td>
+                                                <td>Accounting for Managers</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Operating System</td>
+                                                <td>Organizational Behavior</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Operating System Lab</td>
+                                                <td>Fundamentals of Analytics</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Web Technology</td>
+                                                <td>Fundamentals of Analytics</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Web Technology Lab</td>
+                                                <td>Statistics & Business Mathematics</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Professional Ethics and IT Laws</td>
+                                                <td>Managerial Economics</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Introduction to Artificial Intelligence and Data Science</td>
+                                                <td>AI For Managers</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Python Programming</td>
+                                                <td>Information Technology for Managers</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Minor Project</td>
+                                                <td>Soft Skills</td>
                                             </tr>
                                         </tbody>
                                     </table>
 
+                                    <div style="font-size: 12px; margin-top: 20px;">
+                                        <b>Note:- </b>Students will have to go for immersion Programme as per their
+                                        specialization
+                                        for minimum 15 days after First Semester Examination. The evaluation for the
+                                        same will be done in the Second semester.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -308,63 +230,79 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Database Management System</td>
+                                                <td>Operation Research</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Database Management System Lab</td>
+                                                <td>Research Methodology</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Computer Networks</td>
+                                                <td>Research Methodology</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Computer Networks Lab</td>
+                                                <td>Fundamentals of Marketing Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Object Oriented Methodology using Java</td>
+                                                <td>Fundamentals of Financial Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Object Oriented Methodology using Java Lab</td>
+                                                <td>Fundamentals of Human Resource Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Software Engineering Methodologies</td>
+                                                <td>Production & Operations Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Probability and Statistical Methods</td>
+                                                <td>Introduction to Business Communication</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Introduction to Machine Learning</td>
+                                                <td>Professional Development</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Introduction to Machine Learning Lab</td>
+                                                <td>Immersion Program (Minor Project)</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Understanding India and Indian Knowledge System</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Internship</td>
+                                                <td>Introduction to Corporate Governance & CSR</td>
                                             </tr>
                                         </tbody>
                                     </table>
 
+                                    <div style="font-size: 12px; margin-top: 20px;">
+                                        <b>Note:-</b>
+                                        <p>1. A One Year Post-Graduate Diploma will be awarded, if a student wishes to
+                                            exit at the end of first year/second semester upon successful completion. A
+                                            Student having qualified in One Year Post Graduate Diploma as per NEP 2020
+                                            guidelines can join the MBA programme in 3rd Semester at any time during the
+                                            period. </p>
+                                        <p>2. The procedure for depositing credits earned, its shelf life, redemption of
+                                            credits, would be as per UGC (Establishment and Operationalisation) of
+                                            Academic Bank of credits (ABC) scheme in higher education (Regulations
+                                            2021). The admission would be subject to availability of seats in the
+                                            programme.</p>
+
+                                        <p> 3. Each student has to go for an internship in any company/organization for
+                                            30-45 days after Second Semester Examination. The evaluation for the same
+                                            will be done in the Third semester.</p>
+
+                                        <p>** In Case of any discrepancy or doubts, the National Credit Franework (NCrF)
+                                            AICTE guidelines must be reffered.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Semester III -->
-                        <div class="accordion-item-csr d-none">
+                        <div class="accordion-item-csr">
                             <button class="accordion-header-csr">
-                                <span class="accordion-title">Semester III</span>
+                                <span class="accordion-title">Semester III(a)</span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-body-csr">
@@ -379,19 +317,31 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Broadcast T.V and News Production</td>
+                                                <td>Specialization 1</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Media Research</td>
+                                                <td>Specialization 1</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Digital PR</td>
+                                                <td>Specialization 1</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Indian Constitution and Socio Economic Polity</td>
+                                                <td>Specialization 2</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Specialization 2</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Specialization 2</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none"></td>
+                                                <td>Entrepreneurship</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
@@ -399,15 +349,20 @@
                                             </tr>
                                         </tbody>
                                     </table>
-
+                                    <div style="font-size: 12px; margin-top: 20px;">
+                                        <b>Note:-</b>
+                                        <p> 1. Each student has to go for an On the Job Training Project in any
+                                            company/organization for 100-120 days after Third Semester Examination. The
+                                            evaluation for the same will be done in the Fourth semester.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Semester IV -->
-                        <div class="accordion-item-csr d-none">
+                        <!-- Semester V -->
+                        <div class="accordion-item-csr">
                             <button class="accordion-header-csr">
-                                <span class="accordion-title">Semester IV</span>
+                                <span class="accordion-title">Semester III(b)</span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-body-csr">
@@ -421,63 +376,28 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="d-none">CAPMCNDS401T</td>
-                                                <td>Software Engineering</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">CAPMCNDS401P</td>
-                                                <td>Computer Architecture and Organization</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">CAPMCNSP402T</td>
-                                                <td>Advance Java Script</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">CAPMCNNP403T</td>
-                                                <td>Advance Java Script Lab</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">CAPMCNNP403P</td>
-                                                <td>Refer Table 3</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">CAPMCNPR404T</td>
-                                                <td>Refer Table 3 </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">CAPMCNPR404P</td>
-                                                <td>Refer Table 4</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">SCIMDLCE405T</td>
-                                                <td>Refer Table 4 </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">VACVCNIK406N</td>
-                                                <td>Professional Development – IV</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Digital and Technological Solutions</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Micro Project</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Community Development</td>
+                                                <td class="d-none"></td>
+                                                <td>Research Project</td>
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <div style="font-size: 12px; margin-top: 20px;">
+                                        <b>Note:-</b>
+                                        <p> 1. Any one structure from III (a) or III(b) needs to be selected.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                     <!-- RIGHT COLUMN : 5 ACCORDIONS -->
                     <div class="accordion-column">
-                        <!-- Semester V -->
+
+                        <!-- Semester IV -->
                         <div class="accordion-item-csr">
                             <button class="accordion-header-csr">
-                                <span class="accordion-title">Semester III</span>
+                                <span class="accordion-title">Semester IV(a)</span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-body-csr">
@@ -491,62 +411,11 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="d-none"></td>
-                                                <td>Design and Analysis of Algorithms</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Advanced Java and Web Application Development</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Advanced Java and Web Application Development Lab</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Cloud Computing</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Cloud Computing Lab</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Data Analytics and Visualization</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Data Analytics and Visualization Lab</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Agile Methodologies</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Minor Project</td>
+                                                <td class="d-none">CAPMCNCC601T</td>
+                                                <td>Research Thesis</td>
                                             </tr>
                                         </tbody>
                                     </table>
-
-                                    <table class="subject-table mt-4">
-                                        <thead>
-                                            <tr>
-                                                <th colspan="2" style="text-align: center;"><b>Research Work</b></th>
-                                            </tr>
-                                            <tr>
-                                                <th class="d-none">Subjec</th>
-                                                <th>Subject Title</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Research Project-I</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-
                                 </div>
                             </div>
                         </div>
@@ -554,7 +423,7 @@
                         <!-- Semester VI -->
                         <div class="accordion-item-csr">
                             <button class="accordion-header-csr">
-                                <span class="accordion-title">Semester IV</span>
+                                <span class="accordion-title">Semester IV(b)</span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-body-csr">
@@ -568,59 +437,41 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="d-none"></td>
-                                                <td>Internet of Things (IoT)</td>
+                                                <td class="d-none">CAPMCNCC601T</td>
+                                                <td>Strategic Management</td>
                                             </tr>
                                             <tr>
-                                                <td>Blockchain Technology</td>
+                                                <td>Business Ethics & CSR</td>
                                             </tr>
                                             <tr>
-                                                <td>Cloud Web Services</td>
+                                                <td>Specialization 1</td>
                                             </tr>
                                             <tr>
-                                                <td>Cloud Web Services Lab</td>
+                                                <td>Specialization 1</td>
                                             </tr>
                                             <tr>
-                                                <td>R Programming</td>
+                                                <td>Specialization 2</td>
                                             </tr>
                                             <tr>
-                                                <td>R Programming Lab</td>
+                                                <td>Specialization 2</td>
                                             </tr>
                                             <tr>
-                                                <td>Mobile and Wireless Network Security</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Major Project</td>
+                                                <td>Dissertation Project</td>
                                             </tr>
                                         </tbody>
                                     </table>
-
-                                    <table class="subject-table mt-4">
-                                        <thead>
-                                            <tr>
-                                                <th colspan="2" style="text-align: center;"><b>Research Work</b></th>
-                                            </tr>
-                                            <tr>
-                                                <th class="d-none">Subjec</th>
-                                                <th>Subject Title</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="d-none"></td>
-                                                <td>Research Project-II</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-
+                                    <div style="font-size: 12px; margin-top: 20px;">
+                                        <b>Note:-</b>
+                                        <p> 1. Any one structure from IV (a) or IV (b) needs to be selected.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Semester VII -->
-                        <div class="accordion-item-csr d-none">
+                        <div class="accordion-item-csr ">
                             <button class="accordion-header-csr">
-                                <span class="accordion-title">Semester VII</span>
+                                <span class="accordion-title">Specialization for Semester III</span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-body-csr">
@@ -634,43 +485,82 @@
                                         </thead>
                                         <tbody>
                                             <tr>
+                                                <td><b>Marketing Management (MM)</b></td>
+                                            </tr>
+                                            <tr>
                                                 <td class="d-none">CAPMCNAW701T</td>
-                                                <td>Advanced Web Technologies</td>
+                                                <td>Consumer Behaviour</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none">CAPMCNAW701P</td>
-                                                <td>Advanced Web Technologies Lab</td>
+                                                <td>Product & Brand Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none">CAPMCNGG702T</td>
-                                                <td>Git and Git hub</td>
+                                                <td>Integrated Marketing Communication</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Information Technology Management (ITM)</b></td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none">CAPMCNGG702P</td>
-                                                <td>Git and Git hub Lab</td>
+                                                <td>Management Information System</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none">CAPMCNRM703T</td>
-                                                <td>Research Methodology</td>
+                                                <td>Database Management System & SQL</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none">CAPMCNRM703T</td>
-                                                <td>Research Methodology Lab</td>
+                                                <td>Computer Networks & Models</td>
                                             </tr>
                                             <tr>
-                                                <td>Data Analysis using R</td>
+                                                <td><b>Event Management (EVM)</b></td>
                                             </tr>
                                             <tr>
-                                                <td>Data Analysis using R Lab</td>
+                                                <td>Event Management: Introduction</td>
                                             </tr>
                                             <tr>
-                                                <td>Table-11</td>
+                                                <td>Event Planning & Marketing Management</td>
                                             </tr>
                                             <tr>
-                                                <td>Table-11 Lab</td>
+                                                <td>Advanced Event Accounting, Risk & Insurance</td>
                                             </tr>
                                             <tr>
-                                                <td>Refer Table-10</td>
+                                                <td><b>Finance Management (FM)</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tax Planning & Management</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bank & Insurance Management</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Financial Products & Services</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Human Resource Management (HRM)</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Organizational Development</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Compensation & Reward Management</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Human Resource Systems & Processes</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Production & Operations Management (POM)</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Production Planning & Control System</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fundamentals of Total Quality Management</td>
+                                            </tr>
+                                            <tr>
+                                                <td> Enterprise Resource Planning</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -679,9 +569,9 @@
                         </div>
 
                         <!-- Semester VIII (Regular) -->
-                        <div class="accordion-item-csr d-none">
+                        <div class="accordion-item-csr ">
                             <button class="accordion-header-csr">
-                                <span class="accordion-title">Semester VIII (Research)</span>
+                                <span class="accordion-title">Specialization for Semester IV</span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-body-csr">
@@ -695,16 +585,62 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="d-none">CAPMINTB801T</td>
-                                                <td>Table-12</td>
+                                                <td><b>Marketing Management (MM)</b></td>
                                             </tr>
                                             <tr>
-                                                <td class="d-none">CAPMINTB801P</td>
-                                                <td>Table-12 Lab</td>
+                                                <td class="d-none">CAPMCNAW701T</td>
+                                                <td>Sales & Distribution Management</td>
                                             </tr>
                                             <tr>
-                                                <td class="d-none">CAPDPNRP802N</td>
-                                                <td>Research Project Phase</td>
+                                                <td class="d-none">CAPMCNAW701P</td>
+                                                <td>Digital Marketing & Marketing Analytics</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Information Technology Management (ITM)</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none">CAPMCNGG702P</td>
+                                                <td>Applications of Cloud Computing</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="d-none">CAPMCNRM703T</td>
+                                                <td>Strategic Information Management</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Event Management (EVM)</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Concepts & Designing of Events</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Event Operations & Logistics</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Finance Management (FM)</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Concept of Investment & Portfolio Management</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Financial Risk Management & Derivatives</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Human Resource Management (HRM)</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Human Resource Development & Audit</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Strategic Human Resource Management</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Production & Operations Management (POM)</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Supply Chain & Logistics Management</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Business Process Reengineering</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -819,35 +755,34 @@
             <h2 class="section-title">Career Opportunities</h2>
             <div class="career-grid">
                 <div class="career-card">
-                    <i class="fas fa-laptop-code"></i>
-                    <h3>Software Engineer</h3>
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Business Development Manager</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-network-wired"></i>
-                    <h3>Solutions Architect</h3>
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Marketing Manager</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-database"></i>
-                    <h3>Data Scientist</h3>
+                    <i class="fas fa-user-tie"></i>
+                    <h3>HR Manager</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-cloud"></i>
-                    <h3>Cloud Engineer</h3>
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Financial Analyst</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-tasks"></i>
-                    <h3>IT Project Manager</h3>
+                    <i class="fas fa-cogs"></i>
+                    <h3>Operations Manager</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>Security Analyst</h3>
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Management Consultant</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-flask"></i>
-                    <h3>R&amp;D Engineer</h3>
+                    <i class="fas fa-rocket"></i>
+                    <h3>Entrepreneur</h3>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -878,13 +813,12 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                            Q1. How is SAGE's online MCA course delivered?
+                            Q1. Is SAGE's online MBA course valid?
                         </button>
                     </h2>
                     <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. Completely online with live sessions, recorded lectures, and comprehensive digital
-                            resources.
+                            A. Yes. SAGE's UGC recognition ensures complete nationwide validity.
                         </div>
                     </div>
                 </div>
@@ -893,12 +827,13 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq2">
-                            Q2. What is the MCA course duration?
+                            Q2. What specializations exist in this online MBA program?
                         </button>
                     </h2>
                     <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. The MCA course duration is 2 years.
+                            A. SAGE University online MBA offers specializations in Marketing, Finance, Human Resources,
+                            Production & Operation, Event Management, and Information & Technology Management.
                         </div>
                     </div>
                 </div>
@@ -907,14 +842,12 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq3">
-                            Q3. Is this online MCA degree recognized?
+                            Q3. What is the online MBA fees?
                         </button>
                     </h2>
                     <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. Yes. SAGE University MCA online degree has UGC recognition and AICTE approval, ensuring
-                            complete
-                            validity.
+                            A. [ ]
                         </div>
                     </div>
                 </div>
@@ -923,12 +856,12 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq4">
-                            Q4. What is MCA eligibility?
+                            Q4. Can working professionals enroll in this online MBA degree?
                         </button>
                     </h2>
                     <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. [ ]
+                            A. Yes. The online format suits working professionals perfectly with flexible schedules.
                         </div>
                     </div>
                 </div>
@@ -937,142 +870,21 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq5">
-                            Q5. What are the MCA course fees?
+                            Q5. What distinguishes SAGE's MBA from other online MBA courses?
                         </button>
                     </h2>
                     <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. [ ]
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#faq6">
-                            Q6. What is the process for MCA admission?
-                        </button>
-                    </h2>
-                    <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            A. The process is as follows:<br>
-                            1. Apply Online<br>
-                            2. Submit Documents<br>
-                            3. Application Review<br>
-                            4. Fee Payment<br>
-                            5. Start Learning
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#faq7">
-                            Q7. Who should take this online MCA degree program?
-                        </button>
-                    </h2>
-                    <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            A. Graduates pursuing IT careers, professionals upgrading skills, or those seeking technical
-                            leadership
-                            roles.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#faq8">
-                            Q8. What are MCA course details & what technologies are covered?
-                        </button>
-                    </h2>
-                    <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            A. Advanced Java, Python, Cloud platforms, AI/ML, Big Data, and emerging technologies.
+                            A. Industry-aligned content, experienced faculty, practical case studies, and a focus on
+                            creating job-ready graduates distinguish SAGE’s online MBA from others.
                         </div>
                     </div>
                 </div>
             </div>
+
 
         </div>
     </section>
 
-    <footer class="main-footer pt-4 pb-2">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <img src="public/sage_logo.jpg" alt="SAGE University Logo" class="footer-logo mb-3">
-                        <p class="footer-address">SAGE University<br>Bypass Road, Kailod Kartal<br>Indore -
-                            452001<br>Madhya Pradesh, India</p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Quick Links</h4>
-                        <ul class="footer-links">
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><a href="about-university.html">About University</a></li>
-                            <li><a href="chancellor-corner.html">Chancellor's Corner</a></li>
-                            <li><a href="leadership.html">The Leadership</a></li>
-                            <li><a href="faqs.html">FAQs</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Programs</h4>
-                        <ul class="footer-links">
-                            <li><a href="online-degrees.html">Online Degrees</a></li>
-                            <li><a href="degrees-with-internship.html">Degrees with Internship</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Contact Us</h4>
-                        <ul class="footer-contact">
-                            <li><i class="fas fa-phone-alt"></i> +91 98765 43210</li>
-                            <li><i class="fas fa-envelope"></i> admissions@sageuniversity.edu.in</li>
-                        </ul>
-                        <div class="social-icons mt-3">
-                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr class="footer-divider my-2">
-            <div class="text-center">
-                <p class="copyright">&copy; 2025 SAGE University. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <div class="floating-buttons">
-        <a href="tel:+919876543210" class="floating-btn phone-btn" title="Call Us">
-            <i class="fas fa-phone-alt"></i>
-        </a>
-        <a href="mailto:admissions@sageuniversity.edu.in" class="floating-btn email-btn" title="Email Us">
-            <i class="fas fa-envelope"></i>
-        </a>
-        <a href="#apply" class="floating-btn enquire-btn" title="Enquire Now">
-            <i class="fas fa-comments"></i>
-        </a>
-    </div>
-
-    <script src="../../cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="public/script.js"></script>
-    <script src="public/accordion.js"></script>
-</body>
-
-
-<!-- Mirrored from teamleaseedtech.com/sage/mca.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Nov 2025 05:26:31 GMT -->
-</html>
+  
+<?php include ('footer.php'); ?>

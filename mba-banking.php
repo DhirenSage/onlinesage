@@ -1,107 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
 
-
-<!-- Mirrored from teamleaseedtech.com/sage/mba.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Nov 2025 05:26:31 GMT -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="MBA program at SAGE University - 4 years online degree with solid grounding in programming, AI, ML, and Data Science.">
-    <meta name="keywords" content="MBA, Online MBA, Computer Applications, Programming, SAGE University">
-    <title>MBA - SAGE University</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-
-    <link href="../../cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="public/styles.css">
-    <link rel="stylesheet" href="public/accordion.css">
-</head>
-
-<body>
-    <div class="top-bar">
-        <div class="container">
-            <div class="d-flex justify-content-end align-items-center">
-                <a href="tel:+919876543210" class="top-bar-link me-3">
-                    <i class="fas fa-phone-alt me-2"></i>+91 98765 43210
-                </a>
-                <a href="mailto:admissions@sageuniversity.edu.in" class="top-bar-link">
-                    <i class="fas fa-envelope me-2"></i>admissions@sageuniversity.edu.in
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <header class="main-header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index-2.html">
-                    <img src="public/sage_logo.jpg" alt="SAGE University Logo" class="logo">
-                </a>
-
-                <div class="d-flex align-items-center order-lg-3">
-                    <a href="#apply" class="btn btn-apply">Apply Now</a>
-                    <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-
-                <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index-2.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                About Us
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="about-university.html">About University</a></li>
-                                <li><a class="dropdown-item" href="chancellor-corner.html">Chancellor's Corner</a></li>
-                                <li><a class="dropdown-item" href="leadership.html">The Leadership</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
-                                Programs
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="online-degrees.html">Online Degrees</a></li>
-                                <li><a class="dropdown-item" href="degrees-with-internship.html">Degrees with
-                                        Internship</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="faqs.html">FAQs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<?php include ('header.php'); ?>
 
     <section class="course-banner">
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="online-degrees.html">Online Degrees</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">MBA</li>
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="online-degrees.php">Online Degrees</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">MBA in Banking & Finance</li>
                 </ol>
             </nav>
 
             <div class="row">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="course-info">
-                        <h1>Master of Business Administration</h1>
+                        <h1>MBA in in Banking & Finance</h1>
                         <div class="course-meta">
                             <div class="meta-item">
                                 <i class="fas fa-clock"></i>
@@ -170,10 +83,10 @@
             <div class="row">
                 <div class="col-lg-8">
                     <h2 class="section-title mb-4"><span class="title-highlight">Program</span> Overview</h2>
-                    <p style="font-size: 16px; line-height: 1.8; text-align: justify;">SAGE's online MBA program
-                        prepares graduates and professionals for management excellence, leadership positions, and
-                        business innovation. With multiple specialization options, the program builds strategic
-                        thinking, business acumen, and leadership capabilities through flexible online delivery.</p>
+                    <p style="font-size: 16px; line-height: 1.8; text-align: justify;">SAGE's specialized online MBA in
+                        Banking and Finance develops expertise in financial services, banking operations, investment
+                        strategies, and corporate finance. This program combines financial theory with practical
+                        applications in today's dynamic financial markets.</p>
                 </div>
                 <div class="col-lg-4">
                     <div class="eligibility-card">
@@ -194,25 +107,24 @@
             <h2 class="section-title text-center mb-5"><span class="title-highlight">Program</span> Highlights</h2>
             <div class="highlight-grid">
                 <div class="highlight-item">
+                    <i class="fas fa-university"></i>
+                    <h4>Focused banking and finance specialization</h4>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-chart-pie"></i>
+                    <h4>Coverage of investments and risk management</h4>
+                </div>
+                <div class="highlight-item">
                     <i class="fas fa-briefcase"></i>
-                    <h4>Full-spectrum management education</h4>
+                    <h4>Market-aligned curriculum for financial sectors</h4>
                 </div>
                 <div class="highlight-item">
-                    <i class="fas fa-layer-group"></i>
-                    <h4>Specializations: Marketing, Finance, HR, Production & Operation, Event Management, Information &
-                        Technology Management</h4>
+                    <i class="fas fa-calculator"></i>
+                    <h4>Financial modeling and analytical techniques</h4>
                 </div>
                 <div class="highlight-item">
-                    <i class="fas fa-chart-line"></i>
-                    <h4>Industry-relevant curriculum with case analysis</h4>
-                </div>
-                <div class="highlight-item">
-                    <i class="fas fa-users"></i>
-                    <h4>Leadership and communication skill building</h4>
-                </div>
-                <div class="highlight-item">
-                    <i class="fas fa-laptop"></i>
-                    <h4>Flexible online learning for professionals</h4>
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h4>Flexible online delivery with expert faculty</h4>
                 </div>
             </div>
         </div>
@@ -244,11 +156,11 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Principles & Practices of Management</td>
+                                                <td>Principles &amp; Practices of Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Business Law</td>
+                                                <td>Basics of Banking Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
@@ -256,19 +168,19 @@
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Organizational Behavior</td>
+                                                <td>Principles of Banking</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Fundamentals of Analytics</td>
+                                                <td>Fundamental of Analytics</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Fundamentals of Analytics</td>
+                                                <td>Fundamental of Analytics</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Statistics & Business Mathematics</td>
+                                                <td>Statistics &amp; Business Mathematics</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
@@ -276,7 +188,7 @@
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>AI For Managers</td>
+                                                <td>AI for Managers</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
@@ -290,11 +202,12 @@
                                     </table>
 
                                     <div style="font-size: 12px; margin-top: 20px;">
-                                        <b>Note:- </b>Students will have to go for immersion Programme as per their
-                                        specialization
-                                        for minimum 15 days after First Semester Examination. The evaluation for the
-                                        same will be done in the Second semester.
+                                        <b>Note:-</b>
+                                        <p> 1. Students will have to go for immersion Programme as per their
+                                            specialization for minimum 15 days after First Semester Examination. The
+                                            evaluation for the same will be done in the Second semester.</p>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -317,7 +230,7 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Operation Research</td>
+                                                <td>Management of Banks , Insurance & NBFC</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
@@ -337,11 +250,11 @@
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Fundamentals of Human Resource Management</td>
+                                                <td>Risk & Treasury Management</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Production & Operations Management</td>
+                                                <td>Sustainable Business Practices</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
@@ -382,6 +295,7 @@
                                         <p>** In Case of any discrepancy or doubts, the National Credit Franework (NCrF)
                                             AICTE guidelines must be reffered.</p>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -404,27 +318,27 @@
                                         <tbody>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Specialization 1</td>
+                                                <td>Financial Markets & Institutions</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Specialization 1</td>
+                                                <td>Introduction to Stock Market</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Specialization 1</td>
+                                                <td>Financial Derivatives</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Specialization 2</td>
+                                                <td>Introduction to Insurance & Mutual Funds</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Specialization 2</td>
+                                                <td>Marketing of BFS Products</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
-                                                <td>Specialization 2</td>
+                                                <td>International Finance & Foreign Exchange</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none"></td>
@@ -436,15 +350,22 @@
                                             </tr>
                                         </tbody>
                                     </table>
+
                                     <div style="font-size: 12px; margin-top: 20px;">
                                         <b>Note:-</b>
                                         <p> 1. Each student has to go for an On the Job Training Project in any
                                             company/organization for 100-120 days after Third Semester Examination. The
                                             evaluation for the same will be done in the Fourth semester.</p>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+
+                    <!-- RIGHT COLUMN : 5 ACCORDIONS -->
+                    <div class="accordion-column">
 
                         <!-- Semester V -->
                         <div class="accordion-item-csr">
@@ -468,18 +389,15 @@
                                             </tr>
                                         </tbody>
                                     </table>
+
                                     <div style="font-size: 12px; margin-top: 20px;">
                                         <b>Note:-</b>
-                                        <p> 1. Any one structure from III (a) or III(b) needs to be selected.</p>
+                                        <p> 1. Any one structure from III(a) or III(b) needs to be selected.</p>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-
-                    <!-- RIGHT COLUMN : 5 ACCORDIONS -->
-                    <div class="accordion-column">
 
                         <!-- Semester IV -->
                         <div class="accordion-item-csr">
@@ -503,6 +421,7 @@
                                             </tr>
                                         </tbody>
                                     </table>
+
                                 </div>
                             </div>
                         </div>
@@ -531,19 +450,19 @@
                                                 <td>Business Ethics & CSR</td>
                                             </tr>
                                             <tr>
-                                                <td>Specialization 1</td>
+                                                <td>Financial Planning & Wealth Management</td>
                                             </tr>
                                             <tr>
-                                                <td>Specialization 1</td>
+                                                <td>Rural Banking & Micro Finance</td>
                                             </tr>
                                             <tr>
-                                                <td>Specialization 2</td>
+                                                <td>Banking & Finance Technology</td>
                                             </tr>
                                             <tr>
-                                                <td>Specialization 2</td>
+                                                <td>Financial Modelling</td>
                                             </tr>
                                             <tr>
-                                                <td>Dissertation Project</td>
+                                                <td>Dissertation Project </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -556,9 +475,9 @@
                         </div>
 
                         <!-- Semester VII -->
-                        <div class="accordion-item-csr ">
+                        <div class="accordion-item-csr d-none">
                             <button class="accordion-header-csr">
-                                <span class="accordion-title">Specialization for Semester III</span>
+                                <span class="accordion-title">Semester VII</span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-body-csr">
@@ -572,82 +491,43 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><b>Marketing Management (MM)</b></td>
-                                            </tr>
-                                            <tr>
                                                 <td class="d-none">CAPMCNAW701T</td>
-                                                <td>Consumer Behaviour</td>
+                                                <td>Advanced Web Technologies</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none">CAPMCNAW701P</td>
-                                                <td>Product & Brand Management</td>
+                                                <td>Advanced Web Technologies Lab</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none">CAPMCNGG702T</td>
-                                                <td>Integrated Marketing Communication</td>
-                                            </tr>
-                                            <tr>
-                                                <td><b>Information Technology Management (ITM)</b></td>
+                                                <td>Git and Git hub</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none">CAPMCNGG702P</td>
-                                                <td>Management Information System</td>
+                                                <td>Git and Git hub Lab</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none">CAPMCNRM703T</td>
-                                                <td>Database Management System & SQL</td>
+                                                <td>Research Methodology</td>
                                             </tr>
                                             <tr>
                                                 <td class="d-none">CAPMCNRM703T</td>
-                                                <td>Computer Networks & Models</td>
+                                                <td>Research Methodology Lab</td>
                                             </tr>
                                             <tr>
-                                                <td><b>Event Management (EVM)</b></td>
+                                                <td>Data Analysis using R</td>
                                             </tr>
                                             <tr>
-                                                <td>Event Management: Introduction</td>
+                                                <td>Data Analysis using R Lab</td>
                                             </tr>
                                             <tr>
-                                                <td>Event Planning & Marketing Management</td>
+                                                <td>Table-11</td>
                                             </tr>
                                             <tr>
-                                                <td>Advanced Event Accounting, Risk & Insurance</td>
+                                                <td>Table-11 Lab</td>
                                             </tr>
                                             <tr>
-                                                <td><b>Finance Management (FM)</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tax Planning & Management</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bank & Insurance Management</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Financial Products & Services</td>
-                                            </tr>
-                                            <tr>
-                                                <td><b>Human Resource Management (HRM)</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Organizational Development</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Compensation & Reward Management</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Human Resource Systems & Processes</td>
-                                            </tr>
-                                            <tr>
-                                                <td><b>Production & Operations Management (POM)</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Production Planning & Control System</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Fundamentals of Total Quality Management</td>
-                                            </tr>
-                                            <tr>
-                                                <td> Enterprise Resource Planning</td>
+                                                <td>Refer Table-10</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -656,9 +536,9 @@
                         </div>
 
                         <!-- Semester VIII (Regular) -->
-                        <div class="accordion-item-csr ">
+                        <div class="accordion-item-csr d-none">
                             <button class="accordion-header-csr">
-                                <span class="accordion-title">Specialization for Semester IV</span>
+                                <span class="accordion-title">Semester VIII (Research)</span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-body-csr">
@@ -672,62 +552,16 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><b>Marketing Management (MM)</b></td>
+                                                <td class="d-none">CAPMINTB801T</td>
+                                                <td>Table-12</td>
                                             </tr>
                                             <tr>
-                                                <td class="d-none">CAPMCNAW701T</td>
-                                                <td>Sales & Distribution Management</td>
+                                                <td class="d-none">CAPMINTB801P</td>
+                                                <td>Table-12 Lab</td>
                                             </tr>
                                             <tr>
-                                                <td class="d-none">CAPMCNAW701P</td>
-                                                <td>Digital Marketing & Marketing Analytics</td>
-                                            </tr>
-                                            <tr>
-                                                <td><b>Information Technology Management (ITM)</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">CAPMCNGG702P</td>
-                                                <td>Applications of Cloud Computing</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="d-none">CAPMCNRM703T</td>
-                                                <td>Strategic Information Management</td>
-                                            </tr>
-                                            <tr>
-                                                <td><b>Event Management (EVM)</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Concepts & Designing of Events</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Event Operations & Logistics</td>
-                                            </tr>
-                                            <tr>
-                                                <td><b>Finance Management (FM)</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Concept of Investment & Portfolio Management</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Financial Risk Management & Derivatives</td>
-                                            </tr>
-                                            <tr>
-                                                <td><b>Human Resource Management (HRM)</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Human Resource Development & Audit</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Strategic Human Resource Management</td>
-                                            </tr>
-                                            <tr>
-                                                <td><b>Production & Operations Management (POM)</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Supply Chain & Logistics Management</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Business Process Reengineering</td>
+                                                <td class="d-none">CAPDPNRP802N</td>
+                                                <td>Research Project Phase</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -842,32 +676,36 @@
             <h2 class="section-title">Career Opportunities</h2>
             <div class="career-grid">
                 <div class="career-card">
-                    <i class="fas fa-briefcase"></i>
-                    <h3>Business Development Manager</h3>
-                </div>
-                <div class="career-card">
-                    <i class="fas fa-bullhorn"></i>
-                    <h3>Marketing Manager</h3>
-                </div>
-                <div class="career-card">
-                    <i class="fas fa-user-tie"></i>
-                    <h3>HR Manager</h3>
+                    <i class="fas fa-university"></i>
+                    <h3>Banking Manager</h3>
                 </div>
                 <div class="career-card">
                     <i class="fas fa-chart-line"></i>
                     <h3>Financial Analyst</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-cogs"></i>
-                    <h3>Operations Manager</h3>
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h3>Investment Banker</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-lightbulb"></i>
-                    <h3>Management Consultant</h3>
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Risk Manager</h3>
                 </div>
                 <div class="career-card">
-                    <i class="fas fa-rocket"></i>
-                    <h3>Entrepreneur</h3>
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <h3>Credit Manager</h3>
+                </div>
+                <div class="career-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Portfolio Manager</h3>
+                </div>
+                <div class="career-card">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>Financial Consultant</h3>
+                </div>
+                <div class="career-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Fintech Specialist</h3>
                 </div>
             </div>
         </div>
@@ -900,12 +738,14 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                            Q1. Is SAGE's online MBA course valid?
+                            Q1. Which MBA is the best for Banking and Finance?
                         </button>
                     </h2>
                     <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. Yes. SAGE's UGC recognition ensures complete nationwide validity.
+                            A. SAGE University Online MBA in Banking and Finance is one of the best MBA degrees in
+                            India. It has a specialized deep focus on banking, financial markets, investment analysis,
+                            and risk management.
                         </div>
                     </div>
                 </div>
@@ -914,13 +754,13 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq2">
-                            Q2. What specializations exist in this online MBA program?
+                            Q2. Do banks recognize this degree?
                         </button>
                     </h2>
                     <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. SAGE University online MBA offers specializations in Marketing, Finance, Human Resources,
-                            Production & Operation, Event Management, and Information & Technology Management.
+                            A. Yes. SAGE University Online MBA in Banking and Finance is UGC recognized and ensures
+                            acceptance by banks, financial institutions, and corporations.
                         </div>
                     </div>
                 </div>
@@ -929,12 +769,13 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq3">
-                            Q3. What is the online MBA fees?
+                            Q3. Can non-commerce students apply?
                         </button>
                     </h2>
                     <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. [ ]
+                            A. Yes. Graduates from any discipline can enroll. The curriculum builds financial knowledge
+                            from the basics.
                         </div>
                     </div>
                 </div>
@@ -943,109 +784,19 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#faq4">
-                            Q4. Can working professionals enroll in this online MBA degree?
+                            Q4. What career paths does this open?
                         </button>
                     </h2>
                     <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                         <div class="accordion-body">
-                            A. Yes. The online format suits working professionals perfectly with flexible schedules.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#faq5">
-                            Q5. What distinguishes SAGE's MBA from other online MBA courses?
-                        </button>
-                    </h2>
-                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            A. Industry-aligned content, experienced faculty, practical case studies, and a focus on
-                            creating job-ready graduates distinguish SAGE’s online MBA from others.
+                            A. This program opens strong opportunities in banking, investment firms, insurance, fintech,
+                            financial consulting, and corporate finance.
                         </div>
                     </div>
                 </div>
             </div>
-
 
         </div>
     </section>
 
-    <footer class="main-footer pt-4 pb-2">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <img src="public/sage_logo.jpg" alt="SAGE University Logo" class="footer-logo mb-3">
-                        <p class="footer-address">SAGE University<br>Bypass Road, Kailod Kartal<br>Indore -
-                            452001<br>Madhya Pradesh, India</p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Quick Links</h4>
-                        <ul class="footer-links">
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><a href="about-university.html">About University</a></li>
-                            <li><a href="chancellor-corner.html">Chancellor's Corner</a></li>
-                            <li><a href="leadership.html">The Leadership</a></li>
-                            <li><a href="faqs.html">FAQs</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Programs</h4>
-                        <ul class="footer-links">
-                            <li><a href="online-degrees.html">Online Degrees</a></li>
-                            <li><a href="degrees-with-internship.html">Degrees with Internship</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Contact Us</h4>
-                        <ul class="footer-contact">
-                            <li><i class="fas fa-phone-alt"></i> +91 98765 43210</li>
-                            <li><i class="fas fa-envelope"></i> admissions@sageuniversity.edu.in</li>
-                        </ul>
-                        <div class="social-icons mt-3">
-                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr class="footer-divider my-2">
-            <div class="text-center">
-                <p class="copyright">&copy; 2025 SAGE University. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <div class="floating-buttons">
-        <a href="tel:+919876543210" class="floating-btn phone-btn" title="Call Us">
-            <i class="fas fa-phone-alt"></i>
-        </a>
-        <a href="mailto:admissions@sageuniversity.edu.in" class="floating-btn email-btn" title="Email Us">
-            <i class="fas fa-envelope"></i>
-        </a>
-        <a href="#apply" class="floating-btn enquire-btn" title="Enquire Now">
-            <i class="fas fa-comments"></i>
-        </a>
-    </div>
-
-    <script src="../../cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="public/script.js"></script>
-    <script src="public/accordion.js"></script>
-</body>
-
-
-<!-- Mirrored from teamleaseedtech.com/sage/mba.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Nov 2025 05:26:31 GMT -->
-</html>
+<?php include ('footer.php'); ?>

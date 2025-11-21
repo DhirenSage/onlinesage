@@ -1,89 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="SAGE University - Earn UGC-recognized degrees through flexible online learning with real-world internships. NAAC A+ accredited institution.">
-    <meta name="keywords" content="SAGE University, Online Degrees, Internship Programs, UGC Recognized, NAAC A+ Grade">
-    <title>SAGE University - Empower Your Future with Quality Education</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-
-    <link href="cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="public/styles.css"> 
-</head>
-
-<body>
-    <div class="top-bar">
-        <div class="container">
-            <div class="d-flex justify-content-end align-items-center">
-                <a href="tel:+919876543210" class="top-bar-link me-3">
-                    <i class="fas fa-phone-alt me-2"></i>+91 98765 43210
-                </a>
-                <a href="mailto:admissions@sageuniversity.edu.in" class="top-bar-link">
-                    <i class="fas fa-envelope me-2"></i>admissions@sageuniversity.edu.in
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <header class="main-header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index-2.html">
-                    <img src="public/sage_logo.jpg" alt="SAGE University Logo" class="logo">
-                </a>
-
-                <div class="d-flex align-items-center order-lg-3">
-                    <a href="#apply" class="btn btn-apply">Apply Now</a>
-                    <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-
-                <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index-2.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                About Us
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="about-university.html">About University</a></li>
-                                <li><a class="dropdown-item" href="chancellor-corner.html">Chancellor's Corner</a></li>
-                                <li><a class="dropdown-item" href="leadership.html">The Leadership</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                Programs
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="online-degrees.html">Online Degrees</a></li>
-                                <li><a class="dropdown-item" href="degrees-with-internship.html">Degrees with Internship</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="faqs.html">FAQs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
+<?php include ('header.php'); ?>
     <section class="hero-section">
         <div class="container">
             <div class="row">
@@ -268,7 +183,7 @@
                                         <div class="program-content">
                                             <h3>BCA Honours</h3>
                                             <div class="program-buttons">
-                                                <a href="bca-honours.html" class="btn btn-outline-primary">View
+                                                <a href="bca-honours.php" class="btn btn-outline-primary">View
                                                     Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
@@ -284,7 +199,7 @@
                                         <div class="program-content">
                                             <h3>MCA</h3>
                                             <div class="program-buttons">
-                                                <a href="mca.html" class="btn btn-outline-primary">View Details</a>
+                                                <a href="mca.php" class="btn btn-outline-primary">View Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
                                         </div>
@@ -299,7 +214,7 @@
                                         <div class="program-content">
                                             <h3>MBA</h3>
                                             <div class="program-buttons">
-                                                <a href="mba.html" class="btn btn-outline-primary">View Details</a>
+                                                <a href="mba.php" class="btn btn-outline-primary">View Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
                                         </div>
@@ -318,7 +233,7 @@
                                         <div class="program-content">
                                             <h3>MBA Banking & Finance</h3>
                                             <div class="program-buttons">
-                                                <a href="mba-banking.html" class="btn btn-outline-primary">View
+                                                <a href="mba-banking.php" class="btn btn-outline-primary">View
                                                     Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
@@ -334,7 +249,7 @@
                                         <div class="program-content">
                                             <h3>M.Com</h3>
                                             <div class="program-buttons">
-                                                <a href="mcom.html" class="btn btn-outline-primary">View Details</a>
+                                                <a href="mcom.php" class="btn btn-outline-primary">View Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
                                         </div>
@@ -349,7 +264,7 @@
                                         <div class="program-content">
                                             <h3>MA in Journalism and Mass Communication</h3>
                                             <div class="program-buttons">
-                                                <a href="ma-journalism-and-mass-communication.html"
+                                                <a href="ma-journalism-and-mass-communication.php"
                                                     class="btn btn-outline-primary">View Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
@@ -369,7 +284,7 @@
                                         <div class="program-content">
                                             <h3>M.Sc in Mathematics</h3>
                                             <div class="program-buttons">
-                                                <a href="msc-mathematics.html" class="btn btn-outline-primary">View
+                                                <a href="msc-mathematics.php" class="btn btn-outline-primary">View
                                                     Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
@@ -410,7 +325,7 @@
                                         <div class="program-content">
                                             <h3>BCA Honours</h3>
                                             <div class="program-buttons">
-                                                <a href="bca-honours-with-internship.html" class="btn btn-outline-primary">View
+                                                <a href="bca-honours-with-internship.php" class="btn btn-outline-primary">View
                                                     Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
@@ -426,7 +341,7 @@
                                         <div class="program-content">
                                             <h3>MCA</h3>
                                             <div class="program-buttons">
-                                                <a href="mca-with-internship.html" class="btn btn-outline-primary">View Details</a>
+                                                <a href="mca-with-internship.php" class="btn btn-outline-primary">View Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
                                         </div>
@@ -441,7 +356,7 @@
                                         <div class="program-content">
                                             <h3>MBA</h3>
                                             <div class="program-buttons">
-                                                <a href="mba-with-internship.html" class="btn btn-outline-primary">View Details</a>
+                                                <a href="mba-with-internship.php" class="btn btn-outline-primary">View Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
                                         </div>
@@ -460,7 +375,7 @@
                                         <div class="program-content">
                                             <h3>MBA Banking & Finance</h3>
                                             <div class="program-buttons">
-                                                <a href="mba-banking-with-internship.html" class="btn btn-outline-primary">View
+                                                <a href="mba-banking-with-internship.php" class="btn btn-outline-primary">View
                                                     Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
@@ -476,7 +391,7 @@
                                         <div class="program-content">
                                             <h3>M.Com</h3>
                                             <div class="program-buttons">
-                                                <a href="mcom-with-internship.html" class="btn btn-outline-primary">View Details</a>
+                                                <a href="mcom-with-internship.php" class="btn btn-outline-primary">View Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
                                         </div>
@@ -491,7 +406,7 @@
                                         <div class="program-content">
                                             <h3>MA Journalism</h3>
                                             <div class="program-buttons">
-                                                <a href="ma-journalism-and-mass-communication-with-internship.html" class="btn btn-outline-primary">View
+                                                <a href="ma-journalism-and-mass-communication-with-internship.php" class="btn btn-outline-primary">View
                                                     Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
@@ -511,7 +426,7 @@
                                         <div class="program-content">
                                             <h3>M.Sc Maths</h3>
                                             <div class="program-buttons">
-                                                <a href="msc-mathematics-with-internship.html" class="btn btn-outline-primary">View
+                                                <a href="msc-mathematics-with-internship.php" class="btn btn-outline-primary">View
                                                     Details</a>
                                                 <a href="#apply" class="btn btn-primary-custom">Apply Now</a>
                                             </div>
@@ -690,76 +605,5 @@
             </div>
         </div>
     </section>
-
-    <footer class="main-footer pt-4 pb-2">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <img src="public/sage_logo.jpg" alt="SAGE University Logo" class="footer-logo mb-3">
-                        <p class="footer-address">SAGE University<br>Bypass Road, Kailod Kartal<br>Indore -
-                            452001<br>Madhya Pradesh, India</p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Quick Links</h4>
-                        <ul class="footer-links">
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><a href="about-university.html">About University</a></li>
-                            <li><a href="chancellor-corner.html">Chancellor's Corner</a></li>
-                            <li><a href="leadership.html">The Leadership</a></li>
-                            <li><a href="faqs.html">FAQs</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Programs</h4>
-                        <ul class="footer-links">
-                            <li><a href="online-degrees.html">Online Degrees</a></li>
-                            <li><a href="degrees-with-internship.html">Degrees with Internship</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-section">
-                        <h4 class="footer-title">Contact Us</h4>
-                        <ul class="footer-contact">
-                            <li><i class="fas fa-phone-alt"></i> +91 98765 43210</li>
-                            <li><i class="fas fa-envelope"></i> admissions@sageuniversity.edu.in</li>
-                        </ul>
-                        <div class="social-icons mt-3">
-                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr class="footer-divider my-2">
-            <div class="text-center">
-                <p class="copyright">&copy; 2025 SAGE University. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <div class="floating-buttons">
-        <a href="tel:+919876543210" class="floating-btn phone-btn" title="Call Us">
-            <i class="fas fa-phone-alt"></i>
-        </a>
-        <a href="mailto:admissions@sageuniversity.edu.in" class="floating-btn email-btn" title="Email Us">
-            <i class="fas fa-envelope"></i>
-        </a>
-        <a href="#apply" class="floating-btn enquire-btn" title="Enquire Now">
-            <i class="fas fa-comments"></i>
-        </a>
-    </div>
-
-    <script src="cdn.jsdelivr.net/npm/bootstrap%405.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="public/script.js"></script> 
-</body>
-</html>
+<?php include ('footer.php'); ?>
+   
